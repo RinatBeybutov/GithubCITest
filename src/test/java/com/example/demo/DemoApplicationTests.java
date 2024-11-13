@@ -21,6 +21,7 @@ class DemoApplicationTests {
 	@DisplayName("Test with error")
 	void wrongTest() {
 		Assertions.assertEquals(4, sum(1, 2));
+		//test
 	}
 
 }
