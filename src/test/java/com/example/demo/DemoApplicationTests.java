@@ -20,8 +20,10 @@ class DemoApplicationTests {
 	@Test
 	@DisplayName("Test with error")
 	void wrongTest() {
-		Assertions.assertEquals(4, sum(1, 2));
+		Assertions.assertEquals(5, sum(1, 4));
 		//test
+
+		//
 	}
 
 }
